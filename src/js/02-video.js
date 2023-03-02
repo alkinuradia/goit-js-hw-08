@@ -16,4 +16,4 @@ player
     // an error occurred setting the color
 });
 */
-player.setCurrentTime(localStorage.getItem('videoplayer-current-time'));
+player.setCurrentTime(localStorage.getItem('videoplayer-current-time') || 0)
